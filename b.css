@@ -1,13 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
   body{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     min-height: 100vh;
     background: url(thumb.jpg) no-repeat;
     background-size: cover;
@@ -28,6 +27,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   button{
+    display: flex;
     width: auto;
     padding: 10px;
     border: none;
@@ -36,30 +36,16 @@
     border-radius: 4px;
     cursor: pointer;
     box-shadow: var(--boxShadow);
-    vertical-align: top;
-    margin-left: 35%;
+    margin-left: 95%;
+    margin-top: 10px;
   
   }
   .title{
     width: 100%;
     margin-left: 100px;
   }
-  .button-1{
-    margin-left: 50%;
-  }
-  .button-2{
-    margin-left: 35%;
-    margin-right: 30%;
-  }
-  .button-3{
-    margin-left: 55%;
-    margin-right: 50%;
-  }
-  .button-4{
-    margin-left: 55%;
-    margin-right: 50%;
-  }
   p{
-    margin-left: 43%;
+    margin-left: 8%;
     color: rgb(7, 5, 5);
+    font-weight: bold;
   }
