@@ -56,5 +56,5 @@ function registerUser(username, password, users) {
     
     alert('Registration successful');
     // Redirect to login page or perform necessary actions
-     window.location.href = 'UI.html';
+     window.location.href = 'index.html';
 }
